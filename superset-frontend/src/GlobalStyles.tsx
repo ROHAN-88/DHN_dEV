@@ -93,7 +93,8 @@ export const GlobalStyles = () => (
       [data-test='adhoc_filters'],
       [data-test='contributionMode'],
       [data-test='truncate_metric'],
-      [data-test='show_empty_columns'] {
+      [data-test='show_empty_columns'],
+      [data-test='viz_type'] {
         display: none;
       }
    
